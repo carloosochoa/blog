@@ -1,0 +1,35 @@
+/* Estilo para el contenedor principal */
+body{
+    background-color: coral;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 90%; 
+    margin: 0 auto;
+    padding: 20px;
+    column-gap: 4em;
+    row-gap: 5em;
+    background-color: coral;
+
+}
+
+/* Estilo para cada caja de tabla de multiplicar */
+.caja{
+    width: 90%; /* Ancho de cada caja */
+    background-color: #2b2727;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: aliceblue;
+    transition: 0.4s;
+}
+.caja:hover{
+    transform: scale(105%);
+}
+
+

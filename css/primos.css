@@ -1,0 +1,51 @@
+body{
+    background-color:coral;
+    
+    
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    grid-gap: 10px;
+    background-color: coral;
+    color: white;
+    height: 90vh;
+    padding: 30px 25%;
+    
+}
+.caja{
+
+    border: 2px solid white;
+    border-radius: 15%;
+    height: auto;
+    width: auto;
+    background-color: #2b2727;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+
+}
+.primos{
+    background-color: rgba(209, 52, 31, 0.959);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15%;
+    color: white;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
+    box-shadow: 0.1em 0.1em 0.6em black;
+    
+}
+.primos:hover{
+    transform: rotateZ(180deg)
+
+}
+.caja:hover{
+    transform: scale(115%);
+}
+

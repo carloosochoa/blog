@@ -1,0 +1,31 @@
+body{
+    background-color: coral;
+}
+ul,li{
+    list-style: none;
+}
+li::before{
+    content: "👽";
+}
+ul{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+    background-color: #2b2727;
+}
+li{
+
+    background-color: rgba(209, 52, 31, 0.959);
+    border: white 2px solid;
+    border-radius: 4px ;
+    padding: 0.5em;
+    margin: 1em;
+    padding-left: 8em;
+}
+p{
+    text-align: center;
+    background-color: rgba(209, 52, 31, 0.959);
+    border: 2px solid white;
+    border-radius: 4px ;
+    
+}

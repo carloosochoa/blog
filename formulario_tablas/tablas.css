@@ -1,0 +1,13 @@
+body{
+    background-color: coral;
+}
+table{
+    background-color: gray;
+    margin-top: 1em;
+    text-align: center;
+}
+table,td,tr{
+    border: 2px solid white;
+    border-collapse: collapse;
+
+}
