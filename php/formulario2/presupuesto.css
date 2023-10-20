@@ -1,0 +1,26 @@
+body{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-top: 5%;
+    text-align: center;
+}
+table,td,tr{
+    border: 2px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+.oscuro{
+    background-color: rgb(61, 60, 60);
+}
+tr{
+    background-color: gray;
+}
+tr,td{
+    padding: 0.5em;
+}
+button{
+    padding: 0;
+}
