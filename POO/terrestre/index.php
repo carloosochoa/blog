@@ -62,9 +62,11 @@ $puertas = $_REQUEST['puertas'];
 $marca = $_REQUEST['marca'];
 $modelo = $_REQUEST['modelo'];
 
-if($vehiculo === "coche"){
+echo gettype($vehiculo);
+
+if($vehiculo == "coche"){
 $vehiculo[] = new Carro($velocidad,$puertas,$encendido,$marca,$modelo);
-}elseif($vehiculo === "moto"){
+}elseif($vehiculo == "moto"){
     $vehiculo[] = new Moto($velocidad,$puertas,$encendido,$marca,$modelo);
 }else{
     $vehiculo[] = new Bicicleta($velocidad,$encendido,$marca,$modelo);
